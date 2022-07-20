@@ -109,3 +109,12 @@ footer {
   font-size: 12px;
   opacity: 0.6;
 }
+
+footer a {
+  color: var(--text-color);
+  transition: opacity 400ms;
+}
+
+footer:hover {
+  opacity: 1;
+}
