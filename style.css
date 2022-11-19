@@ -103,6 +103,7 @@ ul li a:hover {
 .conteiner-2 span {
   font-size: 13px;
   opacity: 0.5;
+  color: var(--text-color);
 }
 
 .project-images {
@@ -126,8 +127,8 @@ img.project {
 }
 
 img.project:hover {     
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
   transition: 0.6s;
 }
 
@@ -142,8 +143,14 @@ img.project:hover {
 
   .project-images {
     display: flex;
+    gap: 1px;
     overflow-x: scroll;
     margin-left: auto;
     margin-right: auto; 
+  }
+
+  img.project {
+    width: 130px;
+    height: 130px;
   }
 }
