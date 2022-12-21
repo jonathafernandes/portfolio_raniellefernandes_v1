@@ -154,4 +154,46 @@ img.project:hover {
     width: 110px;
     height: 110px;
   }
+
+  @media (max-width: 397px) {
+    .conteiner-2-textos {
+      display: flex;
+      justify-content: center;
+      gap: 133px;
+    }
+
+    .conteiner-2 .project-images {
+      padding: 1px;
+      margin: 10px 0px 100px 0px;
+    }
+
+    img.project {
+      padding: 9px;
+      width: 103px;
+      height: 103px;
+
+      border-radius: 15%;
+    }
+  }
+
+  @media (max-width: 365px) {
+    .conteiner-2-textos {
+      display: flex;
+      justify-content: center;
+      gap: 133px;
+    }
+
+    .conteiner-2 .project-images {
+      padding: 1px;
+      margin: 10px 0px 100px 0px;
+    }
+
+    img.project {
+      padding: 9px;
+      width: 89px;
+      height: 89px;
+
+      border-radius: 15%;
+    }
+  }
 }
