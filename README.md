@@ -13,7 +13,7 @@ Página de agrupamento de links.
 <br>
 
 <p align="center">
-  <img alt="" src="./imagens/layout.png" width="100%">
+  <img alt="" src="./images/layout.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
