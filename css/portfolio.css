@@ -236,6 +236,10 @@ footer {
     .container {
         margin: 20px;
     }
+
+    .modal h2 {
+        font-size: 0.9rem;
+    }
 }
 
 @media (max-width: 365px) {
