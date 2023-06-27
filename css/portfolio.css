@@ -116,6 +116,7 @@ body {
 
 .project img {
     width: 300px;
+    height: 300px;
 
     border-radius: 10px;
 
@@ -132,10 +133,23 @@ body {
     border-radius: 3px;
 
     margin-top: 10px;
-    width: 140px;
+    width: 100px;
     padding: 4px;
 
     cursor: pointer;
+}
+
+.project-3 {
+    width: 300px;
+    height: 300px;
+
+    border: 1px solid #E09B80;
+    border-radius: 10px;
+}
+
+.project-3 p {
+    text-align: center;
+    margin: 50% 0;
 }
 
 dialog::backdrop {
