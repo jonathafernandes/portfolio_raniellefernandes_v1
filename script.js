@@ -1,11 +1,15 @@
-const modal = document.querySelector("dialog")
-const btn = document.querySelector("button")
-const btnClose = document.querySelector("dialog button")
+const projects = document.querySelectorAll(".projects-grid .project");
 
-btn.onclick = function () {
-    modal.showModal()
-}
+projects.forEach((project) => {
+    const btn = project.querySelector("button");
+    const modal = project.querySelector("dialog");
+    const btnClose = modal.querySelector("button");
 
-btnClose.onclick = function () {
-    modal.close()
-}
+    btn.onclick = function () {
+        modal.showModal();
+    };
+
+    btnClose.onclick = function () {
+        modal.close();
+    };
+});

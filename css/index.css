@@ -58,16 +58,15 @@ h1 {
   font-size: 14px;
 }
 
-.social-media i {
-  font-size: 24px;
+.social-media img {
+  width: 24px;
   margin-top: 6px;
-  color: #950dbe;
 
   transition: all 0.5s;
   cursor: pointer;
 }
 
-.social-media i:hover {     
+.social-media img:hover {     
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
@@ -100,6 +99,9 @@ footer {
   flex-direction: column;
   align-items: center;
   gap: 25px;
+
+  opacity: 0.5;
+  font-size: 14px;
 }
 
 footer img {
