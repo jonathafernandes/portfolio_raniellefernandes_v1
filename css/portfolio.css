@@ -138,19 +138,6 @@ body {
     cursor: pointer;
 }
 
-.project-3 {
-    width: 300px;
-    height: 300px;
-
-    border: 1px solid #E09B80;
-    border-radius: 10px;
-}
-
-.project-3 p {
-    text-align: center;
-    margin: 50% 0;
-}
-
 dialog::backdrop {
     background-color: rgb(0 0 0 / .5);
 }
